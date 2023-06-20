@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/saturn.png" type="image/x-icon">
+    <title>Solar System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="whole">
+        <h1 class="first-h1">Calculate the weight of an object on a planet</h1>
+        <div class="input-wrapper">
+            <div>
+                <input type="number" class="mass" placeholder="Mass in kg">
+            </div>
+            <div class="planet">
+                <select name="planet" id="planet">
+                    <option value="" disabled selected>--select planet--</option>
+                    <option value="mercury">Mercury</option>
+                    <option value="venus">Venus</option>
+                    <option value="earth">Earth</option>
+                    <option value="moon">Moon</option>
+                    <option value="mars">Mars</option>
+                    <option value="jupiter">Jupiter</option>
+                    <option value="saturn">Satrun</option>
+                    <option value="uranus">Uranus</option>
+                    <option value="neptune">Neptune</option>
+                    <option value="pluto">Pluto</option>
+                </select>
+            </div>
+            <button class="btn">Calculate weight</button>
+        </div>
+        <div class="view">
+            <div class="image">
+                <img src="images/earth.png" alt="Earth" id="earth-first">
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
