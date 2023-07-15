@@ -122,6 +122,8 @@ html {
   margin-top: 00px;
 }
 footer {
-  font-size: small;
+  font-size: 20px;
   text-align: center;
+  color: #fff;
+  margin-top: 10px;
 }
