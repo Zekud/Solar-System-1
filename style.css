@@ -193,8 +193,3 @@ footer {
     margin-top: 00px;
   }
 }
-@media all and (max-width: 800px) {
-  .btn {
-    font-size: 15px;
-  }
-}
