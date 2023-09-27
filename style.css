@@ -195,6 +195,6 @@ footer {
 }
 @media all and (max-width: 800px) {
   .btn {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
