@@ -33,7 +33,7 @@ html {
   margin-right: 4px;
   border: 0.5px solid #bbb;
   border-radius: 4px;
-  width: 400px;
+  width: 350px;
   outline: none;
 }
 #planet {
@@ -49,8 +49,8 @@ html {
 .btn {
   height: 46px;
   text-align: center;
-  padding: 14px;
-  font-size: 20px;
+  padding: 10px, 10px, 12px, 10px;
+  font-size: 17px;
   border: 0.5px solid #bbb;
   border-radius: 4px;
   background-color: #bbb;
@@ -98,10 +98,10 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 20px;
   padding: 15px;
-  width: 50%;
+  width: auto;
   text-align: center;
   color: #fff;
   background-color: rgba(204, 193, 193, 0.2);
@@ -110,7 +110,7 @@ html {
   padding: 25px;
   margin: 15px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 15px;
   color: #fff;
   border-radius: 50%;
   text-align: center;
@@ -126,4 +126,75 @@ footer {
   text-align: center;
   color: #fff;
   margin-top: 10px;
+}
+@media all and (max-width: 800px) {
+  .whole {
+    overflow: scroll;
+  }
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 10px;
+  }
+  .mass {
+    padding: 14px 16px;
+    margin-right: 4px;
+    border: 0.5px solid #bbb;
+    border-radius: 4px;
+    width: auto;
+    outline: none;
+  }
+  #planet {
+    padding: 14px 16px;
+    margin-top: 3px;
+    margin-right: 4px;
+    border: 0.5px solid #bbb;
+    border-radius: 4px;
+    width: 200px;
+    background-color: #bbb;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  .btn {
+    height: 46px;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    border: 0.5px solid #bbb;
+    border-radius: 4px;
+    background-color: #bbb;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-top: 3px;
+    width: 200px;
+  }
+  .view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: rgba(204, 193, 193, 0.1);
+  }
+  #earth-first {
+    height: 150px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  #image {
+    height: 280px;
+    width: auto;
+    margin-top: 00px;
+  }
+}
+@media all and (max-width: 800px) {
+  .btn {
+    font-size: 16px;
+  }
 }
